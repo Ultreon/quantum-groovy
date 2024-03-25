@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "groovy_lang",
+  "name": "Groovy Language Provider",
+  "description": "Provides support for the Groovy programming language.",
+  "version": "1.0.0",
+  "icon": "assets/groovy_lang/icon.png",
+
+  "entrypoints": {
+    "init": [
+      "com.ultreon.craft.groovy.GroovyApiMod"
+    ],
+    "client-init": [
+      "com.ultreon.craft.groovy.client.GroovyApiClient"
+    ],
+    "server-init": [
+      "com.ultreon.craft.groovy.server.GroovyApiServer"
+    ]
+  }
+}
